@@ -61,7 +61,7 @@ def echo(client, message):
     pq = ""
     pro = client.send_message(chat_id=message.chat.id, text="Searching...", reply_to_message_id=message.message_id)
     r_num = message.text
-    num = r_num.replace("+91", "").replace(" ", "")
+    num = r_num.replace("+963", "").replace(" ", "")
     frbseyename = ""
     frbsefb = ""
     frbsetrname = ""
